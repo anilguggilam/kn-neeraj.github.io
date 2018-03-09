@@ -404,6 +404,12 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   background: linear-gradient(#77a1c0, #9cd5ff);
 }
 
+.bg-semiprimary {
+  background: #9cd5ff;
+  background: -webkit-linear-gradient(#9cd5ff, #aadbff);
+  background: linear-gradient(#9cd5ff, #aadbff);
+}
+
 .text-primary {
   color: #77a1c0;
 }
@@ -417,6 +423,18 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   color: white;
   border: 1px solid;
   border-color: white;
+}
+
+.btn-dark-outline {
+  color: #77a1c0;
+  border: 2px solid;
+  border-color: #77a1c0;
+}
+
+.btn-dark-outline:hover, .btn-dark-outline:focus, .btn-dark-outline:active, .btn-dark-outline.active {
+  color: white;
+  border-color: #77a1c0;
+  background-color: #77a1c0;
 }
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
