@@ -281,6 +281,7 @@ section.features .feature-item i {
   background: linear-gradient(to left, #7b4397, #dc2430);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  align-items: center;
 }
 
 section.cta {
@@ -453,4 +454,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px;
+}
+
+.img-fluid {
+  padding-bottom: 20px;
 }
